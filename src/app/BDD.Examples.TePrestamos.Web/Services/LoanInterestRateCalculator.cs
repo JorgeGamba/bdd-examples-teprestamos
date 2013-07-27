@@ -12,6 +12,10 @@ namespace BDD.Examples.TePrestamos.Web.Services
             {
                 return DefaultInterestRate - 5;
             }
+            if (customer.IsSingleMother)
+            {
+                return DefaultInterestRate - 4;
+            }
 
             return DefaultInterestRate;
         }
