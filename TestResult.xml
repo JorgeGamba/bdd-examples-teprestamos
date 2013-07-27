@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Google Drive\Comunidades\BarCamp Medellín\bdd-examples-teprestamos\src\spec\BDD.Examples.TePrestamos.Specs\BDD.Examples.TePrestamos.Specs.csproj" total="3" errors="0" failures="0" not-run="0" inconclusive="3" ignored="0" skipped="0" invalid="0" date="2013-07-27" time="15:39:28">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\Google Drive\Comunidades\BarCamp Medellín\bdd-examples-teprestamos" machine-name="JGLAPTOP" user="Jorge Gamba" user-domain="JGLaptop" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="D:\Google Drive\Comunidades\BarCamp Medellín\bdd-examples-teprestamos\src\spec\BDD.Examples.TePrestamos.Specs\BDD.Examples.TePrestamos.Specs.csproj" executed="True" result="Inconclusive" success="False" time="1.549" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\Google Drive\Comunidades\BarCamp Medellín\bdd-examples-teprestamos\src\spec\BDD.Examples.TePrestamos.Specs\bin\Debug\BDD.Examples.TePrestamos.Specs.dll" executed="True" result="Inconclusive" success="False" time="1.530" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="BDD" executed="True" result="Inconclusive" success="False" time="1.530" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Examples" executed="True" result="Inconclusive" success="False" time="1.529" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="TePrestamos" executed="True" result="Inconclusive" success="False" time="1.529" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Specs" executed="True" result="Inconclusive" success="False" time="1.529" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Features" executed="True" result="Inconclusive" success="False" time="1.528" asserts="0">
+                            <results>
+                              <test-suite type="Namespace" name="EvaluacionCredito" executed="True" result="Inconclusive" success="False" time="0.847" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="CalcularCapacidadDePagoFeature" description="Calcular capacidad de pago" executed="True" result="Inconclusive" success="False" time="0.830" asserts="0" />
+                                  <test-suite type="TestFixture" name="ConsultaDeCentralesDeRiesgoFeature" description="Consulta de centrales de riesgo" executed="True" result="Inconclusive" success="False" time="0.002" asserts="0" />
+                                  <test-suite type="TestFixture" name="DeterminacionDeRequisitosParaAccederAlCreditoFeature" description="Determinación de requisitos para acceder al crédito" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="OtorgarBeneficios" executed="True" result="Inconclusive" success="False" time="0.679" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="CalculoDeTasaDeInteresFeature" description="Calculo de tasa de interés" executed="True" result="Inconclusive" success="False" time="0.677" asserts="0">
+                                    <results>
+                                      <test-case name="BDD.Examples.TePrestamos.Specs.Features.OtorgarBeneficios.CalculoDeTasaDeInteresFeature.ClienteDesplazadoPorLaViolencia" description="Cliente desplazado por la violencia" executed="True" result="Inconclusive" success="False" time="0.657" asserts="0">
+                                        <reason>
+                                          <message><![CDATA[No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"que el cliente es desplazado por la violencia")]
+        public void DadoQueElClienteEsDesplazadoPorLaViolencia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"se calcule su interés")]
+        public void CuandoSeCalculeSuInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"deberían descontársele (.*) puntos")]
+        public void EntoncesDeberianDescontarselePuntos(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el total no debería exceder (.*)")]
+        public void EntoncesElTotalNoDeberiaExceder(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+]]></message>
+                                        </reason>
+                                      </test-case>
+                                      <test-case name="BDD.Examples.TePrestamos.Specs.Features.OtorgarBeneficios.CalculoDeTasaDeInteresFeature.ClienteMadreCabezaDeFamilia" description="Cliente madre cabeza de familia" executed="True" result="Inconclusive" success="False" time="0.005" asserts="0">
+                                        <reason>
+                                          <message><![CDATA[No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"que el cliente es madre cabeza de hogar")]
+        public void DadoQueElClienteEsMadreCabezaDeHogar()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"se calcule su interés")]
+        public void CuandoSeCalculeSuInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"deberían descontársele (.*) puntos")]
+        public void EntoncesDeberianDescontarselePuntos(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el total no debería exceder (.*)")]
+        public void EntoncesElTotalNoDeberiaExceder(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+]]></message>
+                                        </reason>
+                                      </test-case>
+                                      <test-case name="BDD.Examples.TePrestamos.Specs.Features.OtorgarBeneficios.CalculoDeTasaDeInteresFeature.NoAplicanBeneficios" description="No aplican beneficios" executed="True" result="Inconclusive" success="False" time="0.004" asserts="0">
+                                        <reason>
+                                          <message><![CDATA[No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"que el cliente no es desplazado ni madre cabeza de hogar")]
+        public void DadoQueElClienteNoEsDesplazadoNiMadreCabezaDeHogar()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"se calcule su interés")]
+        public void CuandoSeCalculeSuInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"no deberían realizarse descuentos a su tasa de interés")]
+        public void EntoncesNoDeberianRealizarseDescuentosASuTasaDeInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+]]></message>
+                                        </reason>
+                                      </test-case>
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="ConcesionDePeriodoDeGraciaFeature" description="Concesión de período de gracia" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

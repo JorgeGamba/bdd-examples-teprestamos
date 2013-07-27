@@ -1,0 +1,91 @@
+***** BDD.Examples.TePrestamos.Specs.Features.OtorgarBeneficios.CalculoDeTasaDeInteresFeature.ClienteDesplazadoPorLaViolencia
+Dado que el cliente es desplazado por la violencia
+-> No matching step definition found for the step. Use the following code to create one:
+        [Given(@"que el cliente es desplazado por la violencia")]
+        public void DadoQueElClienteEsDesplazadoPorLaViolencia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Cuando se calcule su interés
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"se calcule su interés")]
+        public void CuandoSeCalculeSuInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Entonces deberían descontársele 5 puntos
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"deberían descontársele (.*) puntos")]
+        public void EntoncesDeberianDescontarselePuntos(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Y el total no debería exceder 10
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el total no debería exceder (.*)")]
+        public void EntoncesElTotalNoDeberiaExceder(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+***** BDD.Examples.TePrestamos.Specs.Features.OtorgarBeneficios.CalculoDeTasaDeInteresFeature.ClienteMadreCabezaDeFamilia
+Dado que el cliente es madre cabeza de hogar
+-> No matching step definition found for the step. Use the following code to create one:
+        [Given(@"que el cliente es madre cabeza de hogar")]
+        public void DadoQueElClienteEsMadreCabezaDeHogar()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Cuando se calcule su interés
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"se calcule su interés")]
+        public void CuandoSeCalculeSuInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Entonces deberían descontársele 4 puntos
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"deberían descontársele (.*) puntos")]
+        public void EntoncesDeberianDescontarselePuntos(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Y el total no debería exceder 10
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el total no debería exceder (.*)")]
+        public void EntoncesElTotalNoDeberiaExceder(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+***** BDD.Examples.TePrestamos.Specs.Features.OtorgarBeneficios.CalculoDeTasaDeInteresFeature.NoAplicanBeneficios
+Dado que el cliente no es desplazado ni madre cabeza de hogar
+-> No matching step definition found for the step. Use the following code to create one:
+        [Given(@"que el cliente no es desplazado ni madre cabeza de hogar")]
+        public void DadoQueElClienteNoEsDesplazadoNiMadreCabezaDeHogar()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Cuando se calcule su interés
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"se calcule su interés")]
+        public void CuandoSeCalculeSuInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Entonces no deberían realizarse descuentos a su tasa de interés
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"no deberían realizarse descuentos a su tasa de interés")]
+        public void EntoncesNoDeberianRealizarseDescuentosASuTasaDeInteres()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
