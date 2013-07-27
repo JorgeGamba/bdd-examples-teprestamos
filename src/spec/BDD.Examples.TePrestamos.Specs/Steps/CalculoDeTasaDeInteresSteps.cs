@@ -21,7 +21,7 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
         [Given]
         public void Dado_que_el_cliente_es_madre_cabeza_de_hogar()
         {
-            ScenarioContext.Current.Pending();
+            _customer.IsSingleMother = true;
         }
         
         [Given]
@@ -39,7 +39,7 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
         [Then]
         public void Entonces_deberían_descontársele_P0_puntos(int p0)
         {
-            Assert.AreEqual(15, _calculatedInterestRate);
+            Assert.AreEqual(LoanInterestRateCalculator.DefaultInterestRate - p0, _calculatedInterestRate);
         }
         
         [Then]
