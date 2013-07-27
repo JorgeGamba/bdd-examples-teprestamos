@@ -1,4 +1,7 @@
 ﻿using System;
+using BDD.Examples.TePrestamos.Web.Domain.Entities;
+using BDD.Examples.TePrestamos.Web.Services;
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 
 namespace BDD.Examples.TePrestamos.Specs.Steps
@@ -6,10 +9,13 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
     [Binding]
     public class CalculoDeTasaDeInteresSteps
     {
+        private readonly Customer _customer = new Customer();
+        private double _calculatedInterestRate;
+
         [Given]
         public void Dado_que_el_cliente_es_desplazado_por_la_violencia()
         {
-            ScenarioContext.Current.Pending();
+            _customer.IsRefugee = true;
         }
         
         [Given]
@@ -27,19 +33,19 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
         [When]
         public void Cuando_se_calcule_su_interés()
         {
-            ScenarioContext.Current.Pending();
+            _calculatedInterestRate = LoanInterestRateCalculator.CalculateFor(_customer);
         }
         
         [Then]
         public void Entonces_deberían_descontársele_P0_puntos(int p0)
         {
-            ScenarioContext.Current.Pending();
+            Assert.AreEqual(15, _calculatedInterestRate);
         }
         
         [Then]
         public void Entonces_el_total_no_debería_exceder_P0(int p0)
         {
-            ScenarioContext.Current.Pending();
+            Assert.LessOrEqual(10, LoanInterestRateCalculator.DefaultInterestRate - _calculatedInterestRate);
         }
         
         [Then]
