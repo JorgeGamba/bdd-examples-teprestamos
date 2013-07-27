@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD.Examples.TePrestamos.Web", "app\BDD.Examples.TePrestamos.Web\BDD.Examples.TePrestamos.Web.csproj", "{70659EED-CA1A-449F-A680-94D1FBD0BC19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{45312928-ED6F-452B-BA38-66C87834103E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD.Examples.TePrestamos.Specs", "spec\BDD.Examples.TePrestamos.Specs\BDD.Examples.TePrestamos.Specs.csproj", "{536D591C-64D9-4398-B8EB-1011F209F20E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70659EED-CA1A-449F-A680-94D1FBD0BC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70659EED-CA1A-449F-A680-94D1FBD0BC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70659EED-CA1A-449F-A680-94D1FBD0BC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70659EED-CA1A-449F-A680-94D1FBD0BC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536D591C-64D9-4398-B8EB-1011F209F20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536D591C-64D9-4398-B8EB-1011F209F20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536D591C-64D9-4398-B8EB-1011F209F20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536D591C-64D9-4398-B8EB-1011F209F20E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
