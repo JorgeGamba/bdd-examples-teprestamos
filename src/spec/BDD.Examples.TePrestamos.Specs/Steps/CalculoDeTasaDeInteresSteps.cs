@@ -27,7 +27,8 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
         [Given]
         public void Dado_que_el_cliente_no_es_desplazado_ni_madre_cabeza_de_hogar()
         {
-            ScenarioContext.Current.Pending();
+            _customer.IsRefugee = false;
+            _customer.IsSingleMother = false;
         }
         
         [When]
@@ -51,7 +52,7 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
         [Then]
         public void Entonces_no_deberían_realizarse_descuentos_a_su_tasa_de_interés()
         {
-            ScenarioContext.Current.Pending();
+            Assert.AreEqual(LoanInterestRateCalculator.DefaultInterestRate, _calculatedInterestRate);
         }
     }
 }
