@@ -8,6 +8,11 @@ namespace BDD.Examples.TePrestamos.Web.Services
 
         public static double CalculateFor(Customer customer)
         {
+            if (customer.IsRefugee)
+            {
+                return DefaultInterestRate - 5;
+            }
+
             return DefaultInterestRate;
         }
     }

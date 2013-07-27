@@ -45,7 +45,7 @@ namespace BDD.Examples.TePrestamos.Specs.Steps
         [Then]
         public void Entonces_el_total_no_debería_exceder_P0(int p0)
         {
-            Assert.LessOrEqual(10, LoanInterestRateCalculator.DefaultInterestRate - _calculatedInterestRate);
+            Assert.LessOrEqual(LoanInterestRateCalculator.DefaultInterestRate - _calculatedInterestRate, 10);
         }
         
         [Then]
